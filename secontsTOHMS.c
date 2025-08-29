@@ -15,6 +15,38 @@ int main(void) {
 puts("Enter the nummber of seconds");
 scanf("%d", &seconds);
 
+if (seconds < 0) {
+   puts(seconds to 
+   
 // Calculate the numeber of minutes
 int minutes = seconds / 60;
-int remaining_seconds = seconds
+int remaining_seconds = seconds % 60; // seconds - (seconds / 60 * 60)
+
+// Calculate the number of hours and change the output
+int hours = minutes / 60;
+int remaining_minutes = minutes % 60;
+
+// Selection statement
+/*
+<
+>
+<=
+>=
+*/
+if (seconds < 0) {
+    puts("seconds cannot be negative");
+
+}
+   
+if (second >= 0) {
+// print the result
+printf("%d seconds is %d minutes and %d seconds\n", seconds, minutes, remaining_seconds);
+printf("%d seconds is %d minutes and %d seconds\n", seconds, 
+                                                    hours,                                              
+                                                    remaining_minutes, 
+                                                    remaining_seconds);
+
+}
+
+ return 0;
+}
