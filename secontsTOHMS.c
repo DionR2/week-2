@@ -1,5 +1,5 @@
 /*
-   program converts the given numeberof seconds to HMS
+   program converts the given numeber of seconds to HMS
 
    65 seconds -> 1 hour, 1 minute, 30 seconds
    3690 seconds -> 1 hour, 1 minute, 30 seconds
